@@ -22,7 +22,6 @@
 		8AE8CCA31957F7B0000E62AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AE8CCA11957F7B0000E62AD /* InfoPlist.strings */; };
 		8AE8CCA51957F7B0000E62AD /* QuestionGame02Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE8CCA41957F7B0000E62AD /* QuestionGame02Tests.m */; };
 		8AE8CCB01957F7E1000E62AD /* QuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE8CCAF1957F7E1000E62AD /* QuestionViewController.m */; };
-		8AE8CCCE1957F7F1000E62AD /* question1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AE8CCB21957F7F1000E62AD /* question1.png */; };
 		8AE8CCCF1957F7F1000E62AD /* question10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AE8CCB31957F7F1000E62AD /* question10.jpg */; };
 		8AE8CCD01957F7F1000E62AD /* question11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AE8CCB41957F7F1000E62AD /* question11.jpg */; };
 		8AE8CCD11957F7F1000E62AD /* question12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AE8CCB51957F7F1000E62AD /* question12.jpg */; };
@@ -49,6 +48,7 @@
 		8AE8CCE61957F7F1000E62AD /* question9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AE8CCCA1957F7F1000E62AD /* question9.jpg */; };
 		8AE8CCE71957F7F1000E62AD /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AE8CCCC1957F7F1000E62AD /* circle.png */; };
 		8AE8CCE81957F7F1000E62AD /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AE8CCCD1957F7F1000E62AD /* cross.png */; };
+		8AE8CCEA19580CC9000E62AD /* question1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AE8CCE919580CC9000E62AD /* question1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,7 +83,6 @@
 		8AE8CCA41957F7B0000E62AD /* QuestionGame02Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuestionGame02Tests.m; sourceTree = "<group>"; };
 		8AE8CCAE1957F7E1000E62AD /* QuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionViewController.h; sourceTree = "<group>"; };
 		8AE8CCAF1957F7E1000E62AD /* QuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionViewController.m; sourceTree = "<group>"; };
-		8AE8CCB21957F7F1000E62AD /* question1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = question1.png; sourceTree = "<group>"; };
 		8AE8CCB31957F7F1000E62AD /* question10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = question10.jpg; sourceTree = "<group>"; };
 		8AE8CCB41957F7F1000E62AD /* question11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = question11.jpg; sourceTree = "<group>"; };
 		8AE8CCB51957F7F1000E62AD /* question12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = question12.jpg; sourceTree = "<group>"; };
@@ -110,6 +109,7 @@
 		8AE8CCCA1957F7F1000E62AD /* question9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = question9.jpg; sourceTree = "<group>"; };
 		8AE8CCCC1957F7F1000E62AD /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
 		8AE8CCCD1957F7F1000E62AD /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		8AE8CCE919580CC9000E62AD /* question1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = question1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,7 +216,8 @@
 		8AE8CCB11957F7F1000E62AD /* questions */ = {
 			isa = PBXGroup;
 			children = (
-				8AE8CCB21957F7F1000E62AD /* question1.png */,
+				8AE8CCE919580CC9000E62AD /* question1.jpg */,
+				8AE8CCBD1957F7F1000E62AD /* question2.jpg */,
 				8AE8CCB31957F7F1000E62AD /* question10.jpg */,
 				8AE8CCB41957F7F1000E62AD /* question11.jpg */,
 				8AE8CCB51957F7F1000E62AD /* question12.jpg */,
@@ -227,7 +228,6 @@
 				8AE8CCBA1957F7F1000E62AD /* question17.jpg */,
 				8AE8CCBB1957F7F1000E62AD /* question18.jpg */,
 				8AE8CCBC1957F7F1000E62AD /* question19.jpg */,
-				8AE8CCBD1957F7F1000E62AD /* question2.jpg */,
 				8AE8CCBE1957F7F1000E62AD /* question20.jpg */,
 				8AE8CCBF1957F7F1000E62AD /* question21.jpg */,
 				8AE8CCC01957F7F1000E62AD /* question22.jpg */,
@@ -339,11 +339,11 @@
 				8AE8CC921957F7B0000E62AD /* Images.xcassets in Resources */,
 				8AE8CCD71957F7F1000E62AD /* question18.jpg in Resources */,
 				8AE8CCE41957F7F1000E62AD /* question7.jpg in Resources */,
-				8AE8CCCE1957F7F1000E62AD /* question1.png in Resources */,
 				8AE8CC841957F7B0000E62AD /* InfoPlist.strings in Resources */,
 				8AE8CCDA1957F7F1000E62AD /* question20.jpg in Resources */,
 				8AE8CCE01957F7F1000E62AD /* question3.jpg in Resources */,
 				8AE8CCD61957F7F1000E62AD /* question17.jpg in Resources */,
+				8AE8CCEA19580CC9000E62AD /* question1.jpg in Resources */,
 				8AE8CCE51957F7F1000E62AD /* question8.jpg in Resources */,
 				8AE8CCD41957F7F1000E62AD /* question15.jpg in Resources */,
 				8AE8CCE11957F7F1000E62AD /* question4.jpg in Resources */,
@@ -588,6 +588,7 @@
 				8AE8CCAA1957F7B0000E62AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AE8CCAB1957F7B0000E62AD /* Build configuration list for PBXNativeTarget "QuestionGame02Tests" */ = {
 			isa = XCConfigurationList;
@@ -596,6 +597,7 @@
 				8AE8CCAD1957F7B0000E62AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

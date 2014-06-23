@@ -10,6 +10,9 @@
 
 @interface QuestionViewController ()
 
+
+@property (nonatomic, strong) NSString *number;
+
 @end
 
 @implementation QuestionViewController
@@ -30,19 +33,20 @@
     
     //問題の画像が提示されるImageView
     UIImageView *questionView = [[UIImageView alloc] initWithFrame:CGRectMake(100, 100, 200, 200)];
-    questionView.image = [UIImage imageNamed:@"question1.png"];
+    questionView.image = [UIImage imageNamed:@"question1.jpg"];
+    questionView.tag = 10;
     [self.view addSubview:questionView];
     //まるボタンの表示
     UIImage *circleimg = [UIImage imageNamed:@"circle.png"];
     UIButton *circleBtn = [[UIButton alloc] initWithFrame:CGRectMake(200, 800, 70, 70)];
     [circleBtn setImage:circleimg forState:UIControlStateNormal];
-    [circleBtn addTarget:self action:@selector(countUp) forControlEvents:UIControlEventTouchUpInside];
+    [circleBtn addTarget:self action:@selector(countUp:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:circleBtn];
     //ばつボタンの表示
     UIImage *crossimg = [UIImage imageNamed:@"cross.png"];
     UIButton *crossBtn = [[UIButton alloc] initWithFrame:CGRectMake(500, 800, 70, 70)];
     [crossBtn setImage:crossimg forState:UIControlStateNormal];
-    [crossBtn addTarget:self action:@selector(countUp) forControlEvents:UIControlEventTouchUpInside];
+    [crossBtn addTarget:self action:@selector(countUp:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:crossBtn];
 
 }
@@ -65,7 +69,17 @@
 */
 - (void)countUp:(id)sender
 {
+    
+    //self.questionView.image =[UIImage imageNamed:@"question2.jpg"];
+    //[self.view addSubview:self.questionView];
     counter++;
+    //NSString *questionImg = @"question2.jpg";
+    //UIImageView *questionView = questionImg;
+    //[self.view addSubview:questionView];
+    UIImageView *questionView = (UIImageView*)[self.view viewWithTag:10];
+    //NSString *questionNumber = @"question%d",counter;
+    UIImage *img = [UIImage imageNamed:@"question2.jpg"];
+    questionView.image = img;
     NSLog(@"%d", counter);
 }
 
