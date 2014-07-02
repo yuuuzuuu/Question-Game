@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8AA7AEA1195900E600571CD7 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AA7AEA0195900E600571CD7 /* test.png */; };
 		8AE8CC7A1957F7B0000E62AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AE8CC791957F7B0000E62AD /* Foundation.framework */; };
 		8AE8CC7C1957F7B0000E62AD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AE8CC7B1957F7B0000E62AD /* CoreGraphics.framework */; };
 		8AE8CC7E1957F7B0000E62AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AE8CC7D1957F7B0000E62AD /* UIKit.framework */; };
@@ -62,6 +63,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8AA7AEA0195900E600571CD7 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
 		8AE8CC761957F7B0000E62AD /* QuestionGame02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuestionGame02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AE8CC791957F7B0000E62AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8AE8CC7B1957F7B0000E62AD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -175,8 +177,8 @@
 				8AE8CC8E1957F7B0000E62AD /* ViewController.h */,
 				8AE8CC8F1957F7B0000E62AD /* ViewController.m */,
 				8AE8CC911957F7B0000E62AD /* Images.xcassets */,
-				8AE8CCB11957F7F1000E62AD /* questions */,
 				8AE8CCCB1957F7F1000E62AD /* images */,
+				8AE8CCB11957F7F1000E62AD /* questions */,
 				8AE8CC801957F7B0000E62AD /* Supporting Files */,
 				8AE8CCAE1957F7E1000E62AD /* QuestionViewController.h */,
 				8AE8CCAF1957F7E1000E62AD /* QuestionViewController.m */,
@@ -216,6 +218,7 @@
 		8AE8CCB11957F7F1000E62AD /* questions */ = {
 			isa = PBXGroup;
 			children = (
+				8AA7AEA0195900E600571CD7 /* test.png */,
 				8AE8CCE919580CC9000E62AD /* question1.jpg */,
 				8AE8CCBD1957F7F1000E62AD /* question2.jpg */,
 				8AE8CCB31957F7F1000E62AD /* question10.jpg */,
@@ -343,6 +346,7 @@
 				8AE8CCDA1957F7F1000E62AD /* question20.jpg in Resources */,
 				8AE8CCE01957F7F1000E62AD /* question3.jpg in Resources */,
 				8AE8CCD61957F7F1000E62AD /* question17.jpg in Resources */,
+				8AA7AEA1195900E600571CD7 /* test.png in Resources */,
 				8AE8CCEA19580CC9000E62AD /* question1.jpg in Resources */,
 				8AE8CCE51957F7F1000E62AD /* question8.jpg in Resources */,
 				8AE8CCD41957F7F1000E62AD /* question15.jpg in Resources */,

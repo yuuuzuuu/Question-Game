@@ -11,9 +11,11 @@
 @interface QuestionViewController : UIViewController {
     
     int counter;
-    //int questionNumber;
+    int ans;
     
 }
 @property (nonatomic, strong) UIImageView *questionView;
+@property (nonatomic,copy) NSString *answer;
 
 @end
+
